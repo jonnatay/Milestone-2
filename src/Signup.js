@@ -37,7 +37,7 @@ const Signup = () => {
   return (
     <main >        
         <section>
-            <div>
+            <div class="container">
                 <div>                  
                 <header>
                         <div class="innerHeader">

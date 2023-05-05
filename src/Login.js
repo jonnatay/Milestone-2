@@ -33,7 +33,7 @@ const Login = () => {
         <>
             <main >        
                 <section>
-                    <div>                                            
+                    <div class="container">                                            
                         <header>
                             <div class="innerHeader">
                             <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / Home Page</h1>
