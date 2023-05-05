@@ -1,13 +1,14 @@
 import Home from './home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Detail from './detail.js';
-import CreateNew from './createNew.js';
-import List from './list.js'
+import Detail from './detail';
+import CreateNew from './createNew';
+import List from './list'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import EditTask from './editTask';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -23,6 +24,8 @@ function App() {
             <Route exact path="/List" element={<List/>} />
             <Route exact path="/CreateNew" element={<CreateNew/>} />
             <Route exact path="/Home" element={<Home/>} />
+            <Route exact path="/EditTask" element={<EditTask/>} />
+
           </Routes>
         </Router>
     </div>

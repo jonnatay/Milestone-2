@@ -12,8 +12,8 @@ function Home() {
             <div class="innerHeader">
                 <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / Home Page</h1>
                 <div class="usernav">
-                    <a class="usernav" href="list.js">Log-In</a>
-                    <a class="usernav" href="list.js">Sign Up</a>
+                    <a class="usernav" href="list.html">Log-In</a>
+                    <a class="usernav" href="list.html">Sign Up</a>
                 </div>
             </div>
         </header>

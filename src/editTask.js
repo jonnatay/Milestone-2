@@ -2,7 +2,7 @@ import './style.css'
 import Nav from './Nav'
 import logo from './rocketship.jpg'
 import { Route } from 'react-router-dom';
-function CreateNew() {
+function EditTask() {
     return (
 
    <body>
@@ -91,4 +91,4 @@ function CreateNew() {
     );
 }
 
-export default CreateNew;
+export default EditTask;

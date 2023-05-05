@@ -1,13 +1,15 @@
 import './style.css'
-import Nav from './Nav.js'
+import Nav from './Nav'
 import logo from './rocketship.jpg'
-import GetTasks from "./getTasks.js";
+import GetTasks from "./getTasks";
 import Task from "./Task.js"
-
+import EditTask from './editTask';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function List() {
 
     var Tasks = [];
+    
 
     const finalData = GetTasks();
 
@@ -43,11 +45,10 @@ function List() {
   }
 
   function essentialTasks(Tasks) {
-
     var str = "";
     var finalString = "";
-    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.js"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.js\';">Update</button></p></li>'
+    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
+    var postText = '</a><button onclick="window.location.href=\'EditTask\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -69,8 +70,8 @@ function List() {
 
     var str = "";
     var finalString = "";
-    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.js"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.js\';">Update</button></p></li>'
+    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
+    var postText = '</a><button onclick="window.location.href=\'EditTask\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -92,8 +93,8 @@ function List() {
 
     var str = "";
     var finalString = "";
-    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.js"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.js\';">Update</button></p></li>'
+    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
+    var postText = '</a><button onclick="window.location.href=\'EditTask\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -120,8 +121,8 @@ function List() {
             <div class="innerHeader">
                 <h1><img class="logo" src={logo} alt="rocketshiplogo"/> Florida Tech Space Network / My To Do List</h1>
                 <div class="usernav">
-                    <a class="usernav" href="list.js">Log-In</a>
-                    <a class="usernav" href="list.js">Sign Up</a>
+                    <a class="usernav" href="list.html">Log-In</a>
+                    <a class="usernav" href="list.html">Sign Up</a>
                 </div>
             </div>
         </header>   
