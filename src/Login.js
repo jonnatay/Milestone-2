@@ -33,7 +33,7 @@ const Login = () => {
         <>
             <main >        
                 <section>
-                    <div class="container">                                            
+                    <div>                                            
                         <header>
                             <div class="innerHeader">
                             <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / Login Page</h1>
@@ -46,7 +46,7 @@ const Login = () => {
                         <Nav></Nav>
                                                        
                         <form>                                              
-                            <div>
+                            <div class="container">
                                 <label htmlFor="email-address">
                                     Email address
                                 </label>
@@ -60,7 +60,7 @@ const Login = () => {
                                 />
                             </div>
 
-                            <div>
+                            <div class="container">
                                 <label htmlFor="password">
                                     Password
                                 </label>
@@ -74,7 +74,7 @@ const Login = () => {
                                 />
                             </div>
                                                 
-                            <div>
+                            <div class="container">
                                 <button                                    
                                     onClick={onLogin}                                        
                                 >      
