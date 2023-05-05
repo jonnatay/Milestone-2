@@ -1,9 +1,9 @@
 import Home from './home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Detail from './detail';
-import CreateNew from './createNew';
-import List from './list'
+import Detail from './detail.js';
+import CreateNew from './createNew.js';
+import List from './list.js'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";

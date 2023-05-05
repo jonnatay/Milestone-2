@@ -1,7 +1,7 @@
 import './style.css'
-import Nav from './Nav'
+import Nav from './Nav.js'
 import logo from './rocketship.jpg'
-import GetTasks from "./getTasks";
+import GetTasks from "./getTasks.js";
 import Task from "./Task.js"
 
 

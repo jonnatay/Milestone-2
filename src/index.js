@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './index.css';
 import Home from './home.js';
 import Detail from './detail.js'
-import App from './App';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 
 // Import the functions you need from the SDKs you need
