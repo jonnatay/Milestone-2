@@ -3,7 +3,6 @@ import Home from './home';
 import Signup from './Signup';
 import Login from './Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {Routes, Route} from 'react-router-dom';
 
 import Detail from './detail';
 import CreateNew from './createNew';
