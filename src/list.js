@@ -46,8 +46,8 @@ function List() {
 
     var str = "";
     var finalString = "";
-    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.html\';">Update</button></p></li>'
+    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.js"></a>'
+    var postText = '</a><button onclick="window.location.href=\'detail.js\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -69,8 +69,8 @@ function List() {
 
     var str = "";
     var finalString = "";
-    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.html\';">Update</button></p></li>'
+    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.js"></a>'
+    var postText = '</a><button onclick="window.location.href=\'detail.js\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -92,8 +92,8 @@ function List() {
 
     var str = "";
     var finalString = "";
-    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.html\';">Update</button></p></li>'
+    var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.js"></a>'
+    var postText = '</a><button onclick="window.location.href=\'detail.js\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -120,8 +120,8 @@ function List() {
             <div class="innerHeader">
                 <h1><img class="logo" src={logo} alt="rocketshiplogo"/> Florida Tech Space Network / My To Do List</h1>
                 <div class="usernav">
-                    <a class="usernav" href="list.html">Log-In</a>
-                    <a class="usernav" href="list.html">Sign Up</a>
+                    <a class="usernav" href="list.js">Log-In</a>
+                    <a class="usernav" href="list.js">Sign Up</a>
                 </div>
             </div>
         </header>   
