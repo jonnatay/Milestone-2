@@ -37,7 +37,7 @@ const Signup = () => {
   return (
     <main >        
         <section>
-            <div>
+            <div class="container">
                 <div>                  
                 <header>
                         <div class="innerHeader">
@@ -50,7 +50,7 @@ const Signup = () => {
                     </header>
                     <Nav></Nav>                                                           
                     <form>                                                                                            
-                        <div class ="container">
+                        <div>
                             <label htmlFor="email-address">
                                 Email address
                             </label>
@@ -64,7 +64,7 @@ const Signup = () => {
                             />
                         </div>
 
-                        <div class ="container">
+                        <div>
                             <label htmlFor="password">
                                 Password
                             </label>
@@ -78,14 +78,13 @@ const Signup = () => {
                             />
                         </div>                                             
                         
-                        <div class ="container">
                         <button
                             type="submit" 
                             onClick={onSubmit}                        
                         >  
                             Sign up                                
                         </button>
-                        </div>                                             
+                                                                     
                     </form>
                    
                     <p>
