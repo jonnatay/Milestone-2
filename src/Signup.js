@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {  createUserWithEmailAndPassword  } from 'firebase/auth';
 import { auth } from './firebase';
+
+import './style.css';
+import Nav from './Nav.js'
+import logo from './rocketship.jpg'
  
 const Signup = () => {
     const navigate = useNavigate();
@@ -35,7 +39,15 @@ const Signup = () => {
         <section>
             <div>
                 <div>                  
-                    <h1> FocusApp </h1>                                                                            
+                <header>
+                        <div class="innerHeader">
+                            <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / Home Page</h1>
+                            <div class="usernav">
+                            <a class="usernav" href="Login">Log-In</a>
+                            <a class="usernav" href="Signup">Sign Up</a>
+                        </div>
+                </div>
+                    </header>                                                                         
                     <form>                                                                                            
                         <div>
                             <label htmlFor="email-address">
